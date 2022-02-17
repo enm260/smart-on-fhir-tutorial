@@ -128,7 +128,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
-    $('#testing').html('asdasdasd');
+    $('#testing').html(p.testing);
   };
 
 })(window);
