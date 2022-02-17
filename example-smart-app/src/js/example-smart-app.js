@@ -25,7 +25,6 @@
         $.when(pt, obv).fail(onError);
 
         $.when(pt, obv).done(function(patient, obv) {
-          alert(JSON.stringify(patient));
           var byCodes = smart.byCodes(obv, 'code');
           var gender = patient.gender;
 
@@ -127,6 +126,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+    $('#testing').html('VALUE');
   };
 
 })(window);
