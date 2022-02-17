@@ -43,7 +43,7 @@
           var ldl = byCodes('2089-1');
 
           var p = defaultPatient();
-          p.testing = JSON.stringify(patient);
+          p.testing = 'asdasd';
           p.birthdate = patient.birthDate;
           p.gender = gender;
           p.fname = fname;
