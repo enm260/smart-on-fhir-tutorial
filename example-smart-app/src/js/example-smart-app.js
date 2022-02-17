@@ -43,7 +43,7 @@
           var ldl = byCodes('2089-1');
 
           var p = defaultPatient();
-          p.testing = 'asdasd';
+          p.testing = JSON.stringify(patient);
           p.birthdate = patient.birthDate;
           p.gender = gender;
           p.fname = fname;
@@ -128,7 +128,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
-    $('#testing').html('asdasd');
+    $('#testing').html(p.testing);
   };
 
 })(window);
